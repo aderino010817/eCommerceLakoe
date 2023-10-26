@@ -19,7 +19,7 @@ export default function Index() {
   return (
     <div style={{ fontFamily: 'system-ui, sans-serif', lineHeight: '1.8' }}>
       <h1>Welcome to Lakoe store!</h1>
-      <Link to={'/posts'}>
+      <Link to={'/auth/login'}>
         <Button colorScheme="linkedin">Go to Lakoe Store!</Button>
       </Link>
     </div>
